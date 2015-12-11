@@ -8,10 +8,17 @@ reach until just a few years ago. Yet computer vision and natural language proce
 tip of the iceberg of what is possible. In this article, I will demonstrate how [Sebastian Heinz](https://de.linkedin.com/in/sebastianheinz/en), 
 [Roland Vollgraf](https://de.linkedin.com/in/rolandvollgraf) and [I (Calvin Seward)](https://de.linkedin.com/in/calvinseward) 
 used deep neural networks in steering operations at [Zalando’s](https://tech.zalando.com/blog/>) fashion 
-warehouses. Given a set of locations in a warehouse, we trained a neural network that can very accurately 
-estimate how long the optimal pick tour to collect all those items would be. I’ll demonstrate how we used 
-this neural network to greatly accelerate a processing bottleneck, which in turn enabled us to create 
-more efficient batches of orders and reduces the worker’s travel time in the warehouse.
+warehouses.
+
+As Europe’s leading online fashion retailer, there are many exciting opportunities to apply the latest
+results from data science, statistics and high performance computing. Zalando’s vertically integrated 
+business model means that I have dealt with projects as diverse as computer vision, fraud detection,
+recommender systems and of course warehouse management.
+
+To solve the warehouse management problem I’ll be discussing, we trained a neural network that very
+accurately estimates the length of the shortest possible route that visits a set of locations in the warehouse.
+I’ll demonstrate how we used this neural network to greatly accelerate a processing bottleneck, which
+in turn enabled us to more efficiently split work between workers.
 
 The core idea is to use deep learning to create a fast, efficient estimator for a slow and complex algorithm. 
 This is an idea that can (and will) be applied to problems in many areas of industry and research.
